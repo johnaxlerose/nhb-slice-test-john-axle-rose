@@ -418,7 +418,6 @@ span,p,h1,h2,h3, ul, li{
     font-size: 12px;
     font-weight: bolder;
     color:rgb(36, 36, 36);
-    line-height: 0;
     margin-left: 60px;
     margin-top: -7px;
 }
@@ -485,7 +484,7 @@ span,p,h1,h2,h3, ul, li{
 }
 .downloads span{
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-decoration: underline;
@@ -757,6 +756,9 @@ span,p,h1,h2,h3, ul, li{
     }
 }
 @media only screen and (max-width: 460px) {
+    .head-announce{
+        display: block;
+    }
     .flex-function{
         flex-direction: column;
         justify-content: center;
@@ -777,7 +779,26 @@ span,p,h1,h2,h3, ul, li{
 @media only screen and (max-width: 430px) {
     
     .search-label{
-        width: auto;
+        width: 90px;
     }
 }
 
+@media only screen and (max-width: 350px) {
+    .head-two{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+
+    }
+    .nhb-responsive{
+        margin-left:auto ;
+        margin-right: auto;
+        width: 150px;
+        padding-bottom: 10px;
+    }
+    .dl, .dl2{
+        display: block;
+    }
+}
